@@ -32,6 +32,7 @@ request.interceptors.response.use(
     }
     ElMessage({
       type: "warn",
+      type: "success"
       message: msg,
     })
     return Promise.reject(error)
