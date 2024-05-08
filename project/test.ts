@@ -28,7 +28,7 @@ request.interceptors.response.use(
         msg = "服务器出现问题"
         break
       default:
-        msg = "找不到网络"
+        msg = "网络错误"
     }
     ElMessage({
       type: "error",
