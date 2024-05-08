@@ -31,10 +31,11 @@ request.interceptors.response.use(
         msg = "网络错误"
     }
     ElMessage({
-      type: "warn",
+      type: "error",
       type: "success"
       message: msg,
-      message:abc
+      message: abcde
+
     })
     return Promise.reject(error)
   },
