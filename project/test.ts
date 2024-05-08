@@ -16,19 +16,19 @@ request.interceptors.response.use(
     let status = error.response.status
     switch (status) {
       case 401:
-        msg = "token¹ıÆÚ"
+        msg = "tokenè¿‡æœŸ"
         break
       case 403:
-        msg = "ÎŞÈ¨·ÃÎÊ"
+        msg = "æ— æƒè®¿é—®"
         break
       case 404:
-        msg = "ÇëÇóµØÖ·´íÎó"
+        msg = "è¯·æ±‚åœ°å€é”™è¯¯"
         break
       case 500:
-        msg = "·şÎñÆ÷³öÏÖÎÊÌâ"
+        msg = "æœåŠ¡å™¨å‡ºç°é—®é¢˜"
         break
       default:
-        msg = "ÎŞÍøÂç"
+        msg = "æ‰¾ä¸åˆ°ç½‘ç»œ"
     }
     ElMessage({
       type: "error",
