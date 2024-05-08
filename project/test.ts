@@ -34,6 +34,7 @@ request.interceptors.response.use(
       type: "warn",
       type: "success"
       message: msg,
+      message:abc
     })
     return Promise.reject(error)
   },
