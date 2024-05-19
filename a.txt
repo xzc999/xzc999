@@ -8,4 +8,5 @@ let c=3;
 function b(){
 const a=1;
 const b=2;
+const c=3;
 }
