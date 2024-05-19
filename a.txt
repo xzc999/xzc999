@@ -9,5 +9,5 @@ function b(){
 const a=1;
 const b=2;
 const c=5;
-const c=4;
+const c=123;
 }
