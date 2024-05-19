@@ -4,7 +4,7 @@ let b=2;
 let c=3;
 123
 }
-
+123
 
 function b(){
 const a=1;
