@@ -12,3 +12,5 @@ const b=2;
 const c=5;
 const c=123;
 } 
+123
+
