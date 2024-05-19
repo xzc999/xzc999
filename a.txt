@@ -1,0 +1,10 @@
+function a(){
+let a=1;
+let b=2;
+}
+
+
+function b(){
+const a=1;
+const b=2;
+}
